@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ramcharankola.Tasks"
     },
     "android": {
       "adaptiveIcon": {
@@ -39,6 +40,12 @@
       "eas": {
         "projectId": "d5e6b925-c77b-463f-a35e-05e7a0d7aac4"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d5e6b925-c77b-463f-a35e-05e7a0d7aac4"
     }
   }
 }

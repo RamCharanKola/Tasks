@@ -4,24 +4,31 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
     "@gorhom/bottom-sheet": "^4.6.1",
     "dom-to-image": "^2.6.0",
     "expo": "~50.0.13",
+    "expo-dev-client": "~3.3.10",
     "expo-document-picker": "~11.10.1",
+    "expo-image-manipulator": "~11.8.0",
     "expo-image-picker": "~14.7.1",
+    "expo-location": "~16.5.5",
+    "expo-media-library": "~15.9.1",
+    "expo-print": "~12.8.1",
+    "expo-sharing": "~11.10.0",
     "expo-status-bar": "~1.11.1",
+    "expo-updates": "~0.24.12",
     "react": "18.2.0",
     "react-native": "0.73.5",
     "react-native-document-picker": "^9.1.1",
     "react-native-document-scanner-plugin": "^0.9.1",
-    "expo-location": "~16.5.5",
-    "expo-media-library": "~15.9.1",
-    "expo-image-manipulator": "~11.8.0"
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-view-shot": "3.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
