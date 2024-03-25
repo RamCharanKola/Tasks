@@ -34,7 +34,9 @@
         {
           "cameraPermission": "We need camera access, so you can scan documents"
         }
-      ]
+      ],
+      "expo-router",
+      "expo-font"
     ],
     "extra": {
       "eas": {
